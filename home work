@@ -1,0 +1,93 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "01d0064a-25e6-440d-8558-60462f4bc8a6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "addition: 8\n",
+      "division: 0.6\n",
+      "floor_division: 0\n",
+      "power: 243\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=3\n",
+    "b=5\n",
+    "print(\"addition:\",a+b)\n",
+    "print(\"division:\",a/b)\n",
+    "print(\"floor_division:\",a//b)\n",
+    "print(\"power:\",a**b)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "596c725c-88fc-4c84-ac57-8e4f5a0f363a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "False\n",
+      "True\n",
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=45\n",
+    "b=34\n",
+    "print(a<b) #false\n",
+    "print(a==45) #true\n",
+    "print(a>b) #true"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "10582a4e-3817-4fb0-9ce9-6a8633577282",
+   "metadata": {},
+   "source": [
+    "marks=int(intput(\"fifty_five\"))\n",
+    "marks2=int(intput(\"thirty_five\")\n",
+    "print(\"pass\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c941f8a6-5992-4ef6-b969-a0326f0dc3db",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
