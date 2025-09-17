@@ -1,0 +1,280 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "da7c804c-0baf-449a-a7ef-ad8609d6ec91",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello,python Full Stack Students!\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Hello,python Full Stack Students!\") "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "5828aa42-bf8f-4336-89fa-7ed0f6cdcf78",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "This is my Python class\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (\"This is my Python class\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "340c5697-2526-4b5a-ad30-65c382a7a6c0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "such a amazing! Mind blowing day\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (\"such a amazing! Mind blowing day\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "bd91f5dd-a6ac-40ee-b5e9-34aed186b996",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "what is that mind?\n"
+     ]
+    }
+   ],
+   "source": [
+    "print (\"what is that mind?\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "58241db3-d67c-4370-b8ef-57eb03a30f51",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "shireen tabassum 18 9.07 True\n"
+     ]
+    }
+   ],
+   "source": [
+    "name = \"shireen tabassum\"\n",
+    "age = 18 \n",
+    "gpa = 9.07\n",
+    "is_student= True \n",
+    "\n",
+    "print(name,age,gpa,is_student)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "eb07173e-b0a5-4816-adc2-a13acc1c6c1a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'int'> <class 'float'> <class 'str'> <class 'bool'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "x= 10\n",
+    "y=3.14\n",
+    "z=\"python\"\n",
+    "flag= False \n",
+    "\n",
+    "print(type(x),type(y),type(z),type(flag))\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "b29dd11f-c9cc-47cb-b66f-5e960ec8319f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "shireen tabassum avinash college of commerce english\n"
+     ]
+    }
+   ],
+   "source": [
+    "name =\"shireen tabassum\"\n",
+    "college= \"avinash college of commerce\"\n",
+    "favorite_programming_language = \"english\"\n",
+    "\n",
+    "print(name,college,favorite_programming_language)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "f6b5fb07-6ef2-4dec-8ea5-46efc14fba15",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2007 2025 -18\n"
+     ]
+    }
+   ],
+   "source": [
+    "birth_year=2007\n",
+    "current_year=2025\n",
+    "birth_year-current_year\n",
+    "\n",
+    "print(birth_year,current_year,birth_year-current_year)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "6fdcd00d-10f2-4235-a392-82c749dd18ba",
+   "metadata": {},
+   "source": [
+    "movie_name=\"biggboss\"\n",
+    "release_year=2007\n",
+    "rating=4.5\n",
+    "print(movie_name,release_year,rating)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "62e9e50b-0d53-4af9-b470-7fee1f471540",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "addition: 19\n",
+      "division: 3.75\n",
+      "floor_division: 3\n",
+      "power: 50625\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=15\n",
+    "b=4\n",
+    "print(\"addition:\",a+b)\n",
+    "print(\"division:\",a/b)\n",
+    "print(\"floor_division:\",a//b)\n",
+    "print(\"power:\",a**b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "863bcea0-8ae8-4e41-a9c5-95ef267b8cb1",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "False\n",
+      "True\n",
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=10\n",
+    "b=20\n",
+    "print(a>b) #False\n",
+    "print(a==10)#True\n",
+    "print(a<b)and(b==20) #True"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "206ba0ec-e2fa-4b56-9085-50a3f62e6c6b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "False\n",
+      "False\n",
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=20\n",
+    "b=10\n",
+    "print(a<b) #True\n",
+    "print(a==10) #false\n",
+    "print(a>b)and(a==20) #true"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a34bc45e-ed3d-4606-8f09-47677c982700",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
