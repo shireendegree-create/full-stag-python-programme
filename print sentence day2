@@ -1,0 +1,471 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "0e7c66a5-09e0-41f9-879a-2c451077b58a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['apple', 'banana', 'mango', 'orange']\n",
+      "banana\n"
+     ]
+    }
+   ],
+   "source": [
+    "fruits=[\"apple\",\"banana\",\"mango\"]\n",
+    "fruits.append(\"orange\")\n",
+    "print(fruits) #['apple','banana','mango','orange']\n",
+    "print(fruits[1]) #banana"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "a4f8f901-906d-4965-b5ac-373371266cf0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['apple', 'mango', 'orange']\n",
+      "mango\n"
+     ]
+    }
+   ],
+   "source": [
+    "fruits=[\"apple\",\"banana\",\"mango\"]\n",
+    "fruits.append(\"orange\")\n",
+    "fruits.remove(\"banana\") #remove item\n",
+    "fruits.sort() #sort list\n",
+    "print(fruits)  #['apple','banana','mango','orange']\n",
+    "print(fruits[1]) #banana\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "98ffbcc1-80ef-4946-8a74-8a7b08a09ab2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "red\n"
+     ]
+    }
+   ],
+   "source": [
+    "colors =(\"red\",\"green\",\"blue\")\n",
+    "print(colors[0])  #red\n",
+    "#colors[1]= \"yellow\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "3e14fe87-cdaa-43c3-a445-bf7ea7e8f7b2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "{1, 2, 3, 4, 5}\n"
+     ]
+    }
+   ],
+   "source": [
+    "numbers={1,2,3,3,4}\n",
+    "numbers.add(5)\n",
+    "print(numbers)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "bc53380d-b52c-4230-851d-8890487f5822",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "shireen tabassum\n",
+      "{'name': 'shireen tabassum', 'age': 18, 'course': 'python Full Stack'}\n"
+     ]
+    }
+   ],
+   "source": [
+    "student={\n",
+    "\"name\":\"shireen tabassum\",\n",
+    "\"age\":18,\n",
+    "\"course\":\"python Full Stack\"}\n",
+    "print(student[\"name\"]) #shireen tabassum\n",
+    "student[\"age\"]= 18 #update\n",
+    "print(student)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "d92cc5a1-913c-4169-8bd9-7ac7b15dc029",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "dict_keys(['name', 'age', 'course', 'college'])\n",
+      "dict_values(['shireen tabassum', 18, 'python Full Stack', 'ABC University'])\n"
+     ]
+    }
+   ],
+   "source": [
+    "student={\n",
+    "\"name\":\"shireen tabassum\",\n",
+    "\"age\":18,\n",
+    "\"course\":\"python Full Stack\"}\n",
+    "student[\"college\"]=\"ABC University\" \n",
+    "print(student.keys())\n",
+    "print(student.values())\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "d307b4f7-f2ea-4286-8efd-5be65fccea92",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Grade:B\n"
+     ]
+    }
+   ],
+   "source": [
+    "marks=75\n",
+    "if marks>=90:\n",
+    "   print(\"Grade:A\")\n",
+    "elif marks>=75:\n",
+    "    print(\"Grade:B\")\n",
+    "elif marks>=50:\n",
+    "    print(\"Grade:C\")\n",
+    "else:\n",
+    "    print(\"Grade:Fail\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "8e842fe6-9d40-42a0-99c9-7ab194aa313a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Grade:Fail\n"
+     ]
+    }
+   ],
+   "source": [
+    "marks=35\n",
+    "if marks>=97:\n",
+    "   print(\"Grade:A\")\n",
+    "elif marks>=70:\n",
+    "    print(\"Grade:B\")\n",
+    "elif marks>=45:\n",
+    "    print(\"Grade:C\")\n",
+    "else:\n",
+    "    print(\"Grade:Fail\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "54c01f8f-cacb-469e-adb4-cccf9980da76",
+   "metadata": {},
+   "source": [
+    " for i in range(1,6):\n",
+    "     print(\"Number:\",i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "3bf842ad-fbcd-4b51-a2c7-5c6a14a45587",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Number: 1\n",
+      "Number: 2\n",
+      "Number: 3\n",
+      "Number: 4\n",
+      "Number: 5\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in range(1,6): \n",
+    "    print(\"Number:\",i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "13f77450-25fe-415a-bf29-e1454715b53d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Number: 6\n",
+      "Number: 7\n",
+      "Number: 8\n",
+      "Number: 9\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in range(6,10): \n",
+    "    print(\"Number:\",i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "a433aacc-e508-4c19-a90b-6503ea97ae56",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "count: 1\n",
+      "count: 2\n",
+      "count: 3\n",
+      "count: 4\n",
+      "count: 5\n"
+     ]
+    }
+   ],
+   "source": [
+    "count=1\n",
+    "while count<=5:\n",
+    "    print(\"count:\",count)\n",
+    "    count+=1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "5b0b172f-eca1-4ea4-b07e-3c10d86a45d2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "count: 2\n",
+      "count: 3\n",
+      "count: 4\n",
+      "count: 5\n"
+     ]
+    }
+   ],
+   "source": [
+    "count=2\n",
+    "while count<=5:\n",
+    "    print(\"count:\",count)\n",
+    "    count+=1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "6cbba166-b8bf-4c03-abb8-f2016cd0e61a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "count: 3\n",
+      "count: 4\n",
+      "count: 5\n"
+     ]
+    }
+   ],
+   "source": [
+    "count=3\n",
+    "while count<=5:\n",
+    "    print(\"count:\",count)\n",
+    "    count+=1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "bf056fd8-b644-4ef7-a5b2-19f9f4324e6a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "count: 4\n",
+      "count: 5\n"
+     ]
+    }
+   ],
+   "source": [
+    "count=4\n",
+    "while count<=5:\n",
+    "    print(\"count:\",count)\n",
+    "    count+=1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "id": "5d1042f9-9565-4afb-bd5b-098b83146e71",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "count: 5\n"
+     ]
+    }
+   ],
+   "source": [
+    "count=5\n",
+    "while count<=5:\n",
+    "    print(\"count:\",count)\n",
+    "    count+=1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "id": "aa3eb14e-c7c9-4256-99af-01717374d4f1",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "count: 6\n"
+     ]
+    }
+   ],
+   "source": [
+    "count=6\n",
+    "while count<=6:\n",
+    "    print(\"count:\",count)\n",
+    "    count+=1\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 49,
+   "id": "8a380326-6550-45b4-a87b-f38cb790edf1",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in range(1,10):\n",
+    "    if i==5:\n",
+    "        break \n",
+    "    print(i)\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "a65eab40-4f59-4741-ba76-9bec22f6eac0",
+   "metadata": {},
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 48,
+   "id": "12ed9711-7775-4659-a1f2-c3c31eb25cf9",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "6\n",
+      "7\n",
+      "8\n",
+      "9\n",
+      "10\n",
+      "11\n",
+      "12\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in range(6,15):\n",
+    "    if i==13:\n",
+    "       break  \n",
+    "    print(i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ba9f6b61-6437-4889-ab75-220f0ca61d63",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
