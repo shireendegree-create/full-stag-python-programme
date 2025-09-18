@@ -1,0 +1,330 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "fb7a5f36-7c3d-4c06-9440-7c7c2a29e960",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['english', 'telugu', 'urdu', 'science', 'maths', 'biology']\n"
+     ]
+    }
+   ],
+   "source": [
+    "subjects=[\"english\",\"telugu\",\"urdu\",\"science\",\"maths\"]\n",
+    "subjects.append(\"biology\")\n",
+    "print(subjects)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "8d3d9620-ae76-49f7-9a08-ed8c57c36bf1",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "football\n"
+     ]
+    }
+   ],
+   "source": [
+    "sports=(\"football\",\"cricket\",\"hockey\")\n",
+    "print(sports[0]) #football\n",
+    "#sports[1]=\"volley ball\"\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "id": "9b68d05d-e309-4d6f-8a4a-f2d1eb2a922d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "{1, 2, 3, 4, 5}\n"
+     ]
+    }
+   ],
+   "source": [
+    " numbers={1,2,3,3,4}\n",
+    " numbers.add(5)\n",
+    "print(numbers)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "id": "ceb39016-2d5f-4e68-856e-dd6d36581a0b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "shireen tabassum\n",
+      "{'name': 'shireen tabassum', 'college': 'veda junior', 'branch': 'secunderabad'}\n"
+     ]
+    }
+   ],
+   "source": [
+    "friends={\n",
+    "\"name\":\"shireen tabassum\",\n",
+    "\"college\":\"Avinash Commerce\",\n",
+    "\"branch\":\"secunderabad\"}\n",
+    "print(friends[\"name\"]) #shireen tabassum\n",
+    "friends[\"college\"]= \"veda junior\"\n",
+    "print(friends)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 58,
+   "id": "f58585ce-5490-4938-8967-396e3c538bd4",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "friends={\n",
+    "\"name\":\"shireen tabassum\",\n",
+    "\"college\":\"Avinash Commerce\",\n",
+    "\"branch\":\"secunderabad\"}\n",
+    "friends[\"year\"]=2025\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 60,
+   "id": "4d21aded-0407-44da-9913-bb6d31fad1cf",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "dict_keys(['name', 'college', 'branch', 'year'])\n",
+      "dict_values(['shireen tabassum', 'Avinash Commerce', 'secunderabad', 2025])\n"
+     ]
+    }
+   ],
+   "source": [
+    "friends={\n",
+    "\"name\":\"shireen tabassum\",\n",
+    "\"college\":\"Avinash Commerce\",\n",
+    "\"branch\":\"secunderabad\"}\n",
+    "friends[\"year\"]=2025\n",
+    "print(friends.keys())\n",
+    "print(friends.values())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 76,
+   "id": "dd6f6dcc-1ca5-4269-96de-20c8615d732e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Numbers: 1\n",
+      "Numbers: 2\n",
+      "Numbers: 3\n",
+      "Numbers: 4\n",
+      "Numbers: 5\n",
+      "Numbers: 6\n",
+      "Numbers: 7\n",
+      "Numbers: 8\n",
+      "Numbers: 9\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in  range(1,10):\n",
+    "    print(\"Numbers:\",i)\n",
+    "\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 77,
+   "id": "28cb8494-2f8e-47d5-95e6-591e1deb06eb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "count: 6\n",
+      "count: 7\n",
+      "count: 8\n",
+      "count: 9\n",
+      "count: 10\n"
+     ]
+    }
+   ],
+   "source": [
+    "count=6\n",
+    "while count<=10:\n",
+    "    print(\"count:\",count)\n",
+    "    count+=1\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 78,
+   "id": "e14bc418-44d4-43d9-9878-33b321ed2db9",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Numbers: 1\n",
+      "Numbers: 2\n",
+      "Numbers: 3\n",
+      "Numbers: 4\n",
+      "Numbers: 5\n",
+      "Numbers: 6\n",
+      "Numbers: 7\n",
+      "Numbers: 8\n",
+      "Numbers: 9\n",
+      "Numbers: 10\n",
+      "Numbers: 11\n",
+      "Numbers: 12\n",
+      "Numbers: 13\n",
+      "Numbers: 14\n",
+      "Numbers: 15\n",
+      "Numbers: 16\n",
+      "Numbers: 17\n",
+      "Numbers: 18\n",
+      "Numbers: 19\n",
+      "Numbers: 20\n",
+      "Numbers: 21\n",
+      "Numbers: 22\n",
+      "Numbers: 23\n",
+      "Numbers: 24\n",
+      "Numbers: 25\n",
+      "Numbers: 26\n",
+      "Numbers: 27\n",
+      "Numbers: 28\n",
+      "Numbers: 29\n",
+      "Numbers: 30\n",
+      "Numbers: 31\n",
+      "Numbers: 32\n",
+      "Numbers: 33\n",
+      "Numbers: 34\n",
+      "Numbers: 35\n",
+      "Numbers: 36\n",
+      "Numbers: 37\n",
+      "Numbers: 38\n",
+      "Numbers: 39\n",
+      "Numbers: 40\n",
+      "Numbers: 41\n",
+      "Numbers: 42\n",
+      "Numbers: 43\n",
+      "Numbers: 44\n",
+      "Numbers: 45\n",
+      "Numbers: 46\n",
+      "Numbers: 47\n",
+      "Numbers: 48\n",
+      "Numbers: 49\n",
+      "Numbers: 50\n",
+      "Numbers: 51\n",
+      "Numbers: 52\n",
+      "Numbers: 53\n",
+      "Numbers: 54\n",
+      "Numbers: 55\n",
+      "Numbers: 56\n",
+      "Numbers: 57\n",
+      "Numbers: 58\n",
+      "Numbers: 59\n",
+      "Numbers: 60\n",
+      "Numbers: 61\n",
+      "Numbers: 62\n",
+      "Numbers: 63\n",
+      "Numbers: 64\n",
+      "Numbers: 65\n",
+      "Numbers: 66\n",
+      "Numbers: 67\n",
+      "Numbers: 68\n",
+      "Numbers: 69\n",
+      "Numbers: 70\n",
+      "Numbers: 71\n",
+      "Numbers: 72\n",
+      "Numbers: 73\n",
+      "Numbers: 74\n",
+      "Numbers: 75\n",
+      "Numbers: 76\n",
+      "Numbers: 77\n",
+      "Numbers: 78\n",
+      "Numbers: 79\n",
+      "Numbers: 80\n",
+      "Numbers: 81\n",
+      "Numbers: 82\n",
+      "Numbers: 83\n",
+      "Numbers: 84\n",
+      "Numbers: 85\n",
+      "Numbers: 86\n",
+      "Numbers: 87\n",
+      "Numbers: 88\n",
+      "Numbers: 89\n",
+      "Numbers: 90\n",
+      "Numbers: 91\n",
+      "Numbers: 92\n",
+      "Numbers: 93\n",
+      "Numbers: 94\n",
+      "Numbers: 95\n",
+      "Numbers: 96\n",
+      "Numbers: 97\n",
+      "Numbers: 98\n",
+      "Numbers: 99\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in range(1,100):\n",
+    "    print(\"Numbers:\",i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "58b6e812-d138-47ae-9e6f-d989621900f2",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
